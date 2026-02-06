@@ -1,3 +1,21 @@
+#include <Game.h>
+
+int main()
+{
+    Game Game;
+    Game.Run();   
+}
+
+
+
+
+
+
+
+
+
+//Practicing 
+/*
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <iostream>
@@ -56,16 +74,6 @@ int main()
     //Getting Screen Size
     sf::Vector2u WindowSize = Window.getSize();
 
-    /*
-    * Not recommended in most cases
-    //Drawing
-    // Disable window because same window cant exist on multiple threads
-    Window.setActive(false);
-    //Use the render thread
-    std::thread RenderThread(&Render, &Window);
-    */
-
-
     //Main Loop
     while (Window.isOpen())
     {
@@ -122,3 +130,4 @@ int main()
 
     //RenderThread.join();
 }
+*/
